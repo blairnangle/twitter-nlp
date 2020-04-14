@@ -1,5 +1,7 @@
 # twitter-nlp
 
+![](https://github.com/blairnangle/twitter-nlp/workflows/CI/badge.svg)
+
 Fetches and analyses tweets to [@isthisasentence](https://twitter.com/isthisasentence) and replies to the sender of the
 original tweet. Currently, it just replies with a message thanking the tweeter for their tweet.
 
