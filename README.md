@@ -19,3 +19,7 @@ api_secret_key="your api secret key"
 access_token="your access token"
 access_token_secret="your access token secret"
 ```
+
+## License
+
+Distributed under [Eclipse Public License v2.0](./LICENSE).
