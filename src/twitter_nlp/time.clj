@@ -25,7 +25,7 @@
   (let [v (clojure.string/split twitter #" ")]
     (clj-time.core/date-time
       (Integer/parseInt (last v))                           ; year
-      (month->numeric (nth v 1))                          ; month
+      (month->numeric (nth v 1))                            ; month
       (Integer/parseInt (nth v 2))                          ; day
       (Integer/parseInt (subs (nth v 3) 0 2))               ; hour
       (Integer/parseInt (subs (nth v 3) 3 5))               ; minute

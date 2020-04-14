@@ -11,7 +11,7 @@ The program uses [`lein exec`](https://github.com/kumarshantanu/lein-exec) to ru
 $ ./execute_local.sh
 ```
 
-Provided the Twitter authentication credentials are stored in `./auth.config` in this format:
+Provided the account's Twitter authentication credentials are stored in `./auth.config` in this format:
 
 ```bash
 api_key="your api key"
