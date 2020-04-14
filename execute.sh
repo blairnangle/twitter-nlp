@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-lein exec -p src/twitter_nlp/core.clj
+lein exec -p src/twitter_nlp/core.clj ${0} ${1} ${2} ${3}
