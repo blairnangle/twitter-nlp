@@ -13,4 +13,4 @@ jobs:
     - name: Install dependencies
       run: lein deps
     - name: Execute
-      run: ./execute ${{secrets.API_KEY}} ${{secrets.API_SECRET_KEY}} ${{secrets.ACCESS_TOKEN}} ${{secrets.ACCESS_TOKEN_SECRET}}
+      run: ./execute.sh ${{secrets.API_KEY}} ${{secrets.API_SECRET_KEY}} ${{secrets.ACCESS_TOKEN}} ${{secrets.ACCESS_TOKEN_SECRET}}
