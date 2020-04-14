@@ -4,7 +4,7 @@
          '[twitter.api.restful]
          '[clj-time.core])
 
-(defn get-mentions
+(defn- get-mentions
   [creds]
   (:body (twitter.api.restful/statuses-mentions-timeline :oauth-creds creds)))
 
