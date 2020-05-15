@@ -49,7 +49,3 @@ the inefficiency in checking the time for every tweet that the GET `statuses/men
 These issues could be solved by either:
 * Using the Twitter streaming API and deploying the program as an always-up web application
 * Regular executions backed by a persistent store of some sort that keeps track of which tweets have been replied to
-
-## License
-
-Distributed under [Eclipse Public License v2.0](./LICENSE).
